@@ -46,7 +46,7 @@ public class ConsoleUI {
         System.out.println("YES / NO");
         if (scanner.next().equalsIgnoreCase("YES")) run();
         System.out.println("Bye!");
-
+        scanner.close();
     }
 
     //Utility methods:
